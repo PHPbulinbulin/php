@@ -1,6 +1,7 @@
 <?php
 /*
  * 获取用户的平台和平台版本
+ * @param $agent=$_SERVER['HTTP_USER_AGENT']
  * */
 function getPlatform($agent){
     //window系统
