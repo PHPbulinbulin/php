@@ -4,3 +4,8 @@
  //unix_timestamp : 时间转换成时间戳
  $zeroToTwo = "select * from `表名` where `字段` = 值 
  and FROM_UNIXTIME(unix_timestamp(created_at),'%H')>=0 and FROM_UNIXTIME(unix_timestamp(created_at),'%H')<2";
+
+//第二种查询时间的方法
+if(date('H',strtotime('2019-3-10 20:00:00')) >= 00 && date('H',strtotime('2019-3-10 20:00:00')) < 02)){
+ //
+}
