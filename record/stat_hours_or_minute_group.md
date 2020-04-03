@@ -20,6 +20,6 @@ SUM(case when `type`='3' then 1 else 0 end) as `rollback`,
 --   ) AS date 
 
 from `tables` WHERE `type` in(1,2,3) and DATE_FORMAT(`time`, '%Y-%m-%d')='0000-00-00' GROUP BY `date`;
-
+ 
 ```
 
