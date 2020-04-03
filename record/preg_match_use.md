@@ -22,7 +22,7 @@ $url = $matches[1][0];
 >     function ($matches) use ($customUrl) {
 >         return str_replace($matches[1], $customUrl . "&url=" . urlencode($matches[1]), $matches[0]);
 >         }, $replaceContent);
-> return $preg;
+> return $preg; 
 > ```
 >
 > 
