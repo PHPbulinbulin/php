@@ -17,7 +17,7 @@ ob_start();
 //默认写死了png格式
 $data['image'] = 'data:image/png;base64,' . base64_encode(ob_get_contents());
 ob_end_clean();
-return $data;
+return $data; 
 `````
 
 
