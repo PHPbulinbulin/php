@@ -65,7 +65,7 @@ foreach($mockStudentScoreData as $mockStudentScoreValue){
     $item = [
         'studentScoreID' => $mockStudentScoreValue['id'],
         'score' => $mockStudentScoreValue['score'],
-        'studentName' => $mapStudent[$mockStudentScoreValue['id']],
+        'studentName' => $mapStudent[$mockStudentScoreValue['studentID']],
     ];
     $outputData[] = $item;
 }
