@@ -3,7 +3,7 @@
 > composer 安装依赖
 >
 > ```composer
-> composer require aliyuncs/oss-sdk-php
+> composer require aliyuncs/oss-sdk-php 
 > ```
 
 ##### 使用：
